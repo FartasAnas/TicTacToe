@@ -36,9 +36,9 @@ namespace TIcTacToe
                 }
                 b.Text = Turn;
                 changeTurn();
+                etat++;
             }
             state.Text=Turn+" Turn";
-            etat++;
         }
         private void ButtonReset(Button b)
         {
